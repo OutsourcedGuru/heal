@@ -1,0 +1,27 @@
+//-- title, hertz, pid
+extends layout
+
+block content
+  h1= title
+  if (!pid)
+    form(action="/" method="POST")
+      p Select from the following:
+        select(name="hertz" id="hertz")
+          option(value="") Please select
+          option(value="174") Pain-reduction Healing Tone
+          option(value="285") Restructure-tissue Healing Tone
+          option(value="396") Solfeggio Grief-to-joy Healing Tone
+          option(value="417") Solfeggio Facilitating-change Healing Tone
+          option(value="432") Nature Healing Tone
+          option(value="528") Solfeggio Transformation and Miracles Healing Tone (assists DNA)
+          option(value="639") Solfeggio Reconnecting and Rebalancing Healing Tone
+          option(value="741") Solfeggio Problem-Solving Healing Tone
+          option(value="852") Solfeggio Awakening Intuition Healing Tone
+          option(value="963") Return-to-Perfect-State Healing Tone
+        input(type="submit" value="Start")
+        | #{pid}
+  p
+    if (pid)
+      form(action="/stop" method="POST")
+        input(name="pid" id="pid" type="hidden" value=pid)
+        input(type="submit" value="Stop")
