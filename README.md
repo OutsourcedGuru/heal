@@ -5,6 +5,8 @@ Play an adjustable collection of healing tones to the speaker using ``speaker-te
 
 I'm targeting this first version to just Linux, noting that ``alsa-utils`` from the Open Sound System (OSS) interface is loaded by default on Raspian where I'm testing this on a Raspberry Pi 3.
 
+![raspberry-pi-3](https://cloud.githubusercontent.com/assets/15971213/21077172/2a6a1076-bef7-11e6-9504-675c923f9fc0.jpg)
+
 ### Installation (assumes that you already have Node.js and npm installed)
 
 ````
