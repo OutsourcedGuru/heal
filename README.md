@@ -3,7 +3,7 @@ Play an adjustable collection of healing tones to the speaker using ``speaker-te
 
 ### alsa-utils and Linux
 
-I'm targeting this first version to just Linux, noting that ``alsa-utils`` from the Open Sound System (OSS) interface is loaded by default on Raspian where I'm testing this.
+I'm targeting this first version to just Linux, noting that ``alsa-utils`` from the Open Sound System (OSS) interface is loaded by default on Raspian where I'm testing this on a Raspberry Pi 3.
 
 ### Installation (assumes that you already have Node.js and npm installed)
 
@@ -14,7 +14,7 @@ npm install
 DEBUG=heal:* npm start
 ````
 
-If your server doesn't have an internal speaker then plug in headphones or a speaker to the headphone jack. The sound is meant to be server-based rather than client-based) since this was by design.*
+If your server doesn't have an internal speaker then plug in headphones or a speaker to the headphone jack. The sound is meant to be server-based (rather than client-based) since this was by design.*
 
 ### Surfing the created website
 
