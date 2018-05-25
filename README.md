@@ -35,3 +35,8 @@ The website offers a selection of tones which may be played. Once started, a Sto
 I could not otherwise find a node module which very simply plays or otherwise synthesizes a tone on the server. Everything I found was both client-side and required a browser window object, neither of which filled my needs here since it's a headless, server-side project.
 
 \* Intentionally, I created this so that the sound events would occur on the server since I'm implementing this on a Raspberry Pi 3 device.  In theory, the user would initiate the controls on their cellphone, surfing the Pi by its name plus port.
+
+|Donate||Cryptocurrency|
+|:-----:|---|:--------:|
+| ![eth-receive](https://user-images.githubusercontent.com/15971213/40564950-932d4d10-601f-11e8-90f0-459f8b32f01c.png) || ![btc-receive](https://user-images.githubusercontent.com/15971213/40564971-a2826002-601f-11e8-8d5e-eeb35ab53300.png) |
+|Ethereum||Bitcoin|
